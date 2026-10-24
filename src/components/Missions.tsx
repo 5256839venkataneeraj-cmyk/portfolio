@@ -91,7 +91,7 @@ export const Missions: React.FC = () => {
           <h2 className="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
             TECHNICAL SKILLS
           </h2>
-          <p className="mt-2 font-sans text-sm sm:text-base text-slate-400 font-normal leading-relaxed">
+          <p className="mt-2 font-sans text-sm sm:text-base text-slate-200 font-medium leading-relaxed drop-shadow-sm">
             Interactive 3D Arc Carousel featuring core software engineering, computer science foundations, and AI tooling.
           </p>
         </div>

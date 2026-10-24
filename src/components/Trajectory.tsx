@@ -43,22 +43,22 @@ export const Trajectory: React.FC = () => {
       <LightCove className="z-0 opacity-90" />
 
       {/* Atmospheric Top & Bottom Fade Overlays */}
-      <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#05070B] via-[#05070B]/60 to-transparent pointer-events-none z-0" />
-      <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#05070B] via-[#05070B]/60 to-transparent pointer-events-none z-0" />
-      <div className="absolute inset-0 bg-radial-vignette pointer-events-none z-0 opacity-60" />
+      <div className="absolute inset-x-0 top-0 h-72 bg-gradient-to-b from-[#05070B] via-[#05070B]/85 to-transparent pointer-events-none z-0" />
+      <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-[#05070B] via-[#05070B]/85 to-transparent pointer-events-none z-0" />
+      <div className="absolute inset-0 bg-radial-vignette pointer-events-none z-0 opacity-70" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* Section Header */}
-        <div className="gsap-reveal text-center max-w-3xl mx-auto mb-20">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full border border-cyan-500/30 bg-cyan-950/20 text-cyan-300 font-mono text-xs tracking-widest uppercase mb-3">
-            <Navigation className="w-3.5 h-3.5" />
+        {/* Section Header with Dark Glassmorphic Shield */}
+        <div className="gsap-reveal text-center max-w-2xl mx-auto mb-16 px-6 py-6 sm:px-8 sm:py-7 rounded-3xl bg-[#05070B]/90 backdrop-blur-xl border border-white/15 shadow-[0_16px_40px_rgba(0,0,0,0.85)] relative z-20">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/40 bg-cyan-950/50 text-cyan-300 font-mono text-xs tracking-widest uppercase mb-3 shadow-[0_0_15px_rgba(6,182,212,0.25)] font-semibold">
+            <Navigation className="w-3.5 h-3.5 text-cyan-400" />
             <span>CAREER & EDUCATION PATH</span>
           </div>
-          <h2 className="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
+          <h2 className="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
             MY JOURNEY
           </h2>
-          <p className="mt-3 font-sans text-sm sm:text-base text-slate-400 font-normal leading-relaxed max-w-xl mx-auto">
+          <p className="mt-3 font-sans text-sm sm:text-base text-slate-100 font-medium leading-relaxed max-w-xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)]">
             Interactive timeline tracing Narayana Institute to Vellore Institute of Technology.
           </p>
         </div>

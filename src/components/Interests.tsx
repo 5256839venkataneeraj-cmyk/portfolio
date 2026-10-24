@@ -78,7 +78,7 @@ export const Interests: React.FC = () => {
           <h2 className="font-display text-3xl sm:text-5xl font-bold tracking-tight text-white">
             INTERESTS & HOBBIES
           </h2>
-          <p className="mt-3 font-sans text-sm sm:text-base text-slate-400 font-normal leading-relaxed max-w-xl mx-auto">
+          <p className="mt-3 font-sans text-sm sm:text-base text-slate-200 font-medium leading-relaxed max-w-xl mx-auto drop-shadow-sm">
             Interactive 3D Arc Carousel exploring personal passions, tactical gaming, active lifestyle, and cinematic inspirations.
           </p>
         </div>

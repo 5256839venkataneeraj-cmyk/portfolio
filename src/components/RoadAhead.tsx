@@ -146,7 +146,7 @@ export const RoadAhead: React.FC = () => {
             </div>
           </div>
 
-          <p className="mt-4 font-sans text-sm sm:text-base text-slate-400 font-normal leading-relaxed max-w-2xl mx-auto">
+          <p className="mt-4 font-sans text-sm sm:text-base text-slate-200 font-medium leading-relaxed max-w-2xl mx-auto drop-shadow-sm">
             Strategic progression roadmap bridging foundational computer science at VIT Vellore with scalable AI systems and full-stack cloud engineering.
           </p>
         </div>
