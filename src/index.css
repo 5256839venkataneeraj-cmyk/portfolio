@@ -5,7 +5,7 @@
   --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro", "Space Grotesk", "Inter", -system-ui, sans-serif;
   --font-mono: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro", "Space Grotesk", "Inter", "Helvetica Neue", Arial, sans-serif;
   
-  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, Cambria, "Times New Roman", serif;
+  --font-serif: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro", "Space Grotesk", "Inter", -system-ui, sans-serif;
   
   --color-space-black: #05070B;
   --color-space-dark: #0A0D14;
@@ -17,10 +17,9 @@
   --color-gold-dark: #8F7652;
 }
 
-/* Base Typography & Font Smoothing */
-html, body {
-  font-family: var(--font-sans);
-  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+/* Universal Typography & Font Smoothing: San Francisco & Space Grotesk everywhere */
+*, *::before, *::after, html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "SF Pro", "Space Grotesk", "Inter", -system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -28,24 +27,20 @@ html, body {
 
 /* Apple UI & Grotesque Typography Utilities */
 .font-display,
-.font-michroma {
-  font-family: var(--font-display);
+.font-michroma,
+.font-serif {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro", "Space Grotesk", "Inter", -system-ui, sans-serif !important;
   letter-spacing: -0.02em;
 }
 
 .font-sans {
-  font-family: var(--font-sans);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro", "Space Grotesk", "Inter", -system-ui, sans-serif !important;
   letter-spacing: -0.01em;
 }
 
 .font-mono {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro", "Space Grotesk", "Inter", "Helvetica Neue", Arial, sans-serif !important;
-  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   letter-spacing: 0.02em;
-}
-
-.font-serif {
-  font-family: var(--font-serif);
 }
 
 /* Lenis smooth scrolling rules */

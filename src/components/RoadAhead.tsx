@@ -44,7 +44,7 @@ export const RoadAhead: React.FC = () => {
 
           {/* Focus Lens Interactive Headline */}
           <div
-            className="relative font-serif text-3xl sm:text-5xl lg:text-[62px] font-bold tracking-tight leading-[1.25] sm:leading-[1.28] select-none py-2"
+            className="relative font-display text-3xl sm:text-5xl lg:text-[62px] font-bold tracking-tight leading-[1.25] sm:leading-[1.28] select-none py-2"
             onMouseLeave={() => setActiveWordId(null)}
           >
             {/* Line 1: Master the fundamentals. */}
